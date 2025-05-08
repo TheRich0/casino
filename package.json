@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "start": "cd frontend && npm run start",
-    "dev": "cd frontend && node server.js",
+    "dev": "node start-server.js",
     "build": "cd frontend && npm run build",
     "test": "cd frontend && npm run test",
     "eject": "cd frontend && npm run eject",
