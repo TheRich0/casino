@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "start": "cd frontend && npm run start",
-    "dev": "cd frontend && PORT=3003 npm run start",
+    "dev": "cd frontend && PORT=$(($RANDOM % 4000 + 5000)) npm run start",
     "build": "cd frontend && npm run build",
     "test": "cd frontend && npm run test",
     "eject": "cd frontend && npm run eject",
