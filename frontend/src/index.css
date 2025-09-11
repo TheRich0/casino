@@ -1,0 +1,27 @@
+/* Ensure the root elements take full height */
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(26, 29, 40);
+}
+
+/* Add this to your index.css file to ensure proper centering */
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+/* For browsers that support it, use modern viewport units */
+@supports (height: 100dvh) {
+  html,
+  body,
+  #root {
+    height: 100dvh;
+  }
+}

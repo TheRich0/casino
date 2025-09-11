@@ -1,0 +1,20 @@
+{
+  "name": "cherry-casino",
+  "version": "1.0.0",
+  "description": "Root package for both frontend and backend",
+  "private": true,
+  "scripts": {
+    "start": "cd frontend && npm run start",
+    "dev": "node start-server.js",
+    "build": "cd frontend && npm run build",
+    "test": "cd frontend && npm run test",
+    "eject": "cd frontend && npm run eject",
+    "css-dev": "cd frontend && npm run css-dev",
+    "css": "cd frontend && npm run css",
+    "start-backend": "cd backend && node index.js",
+    "install-all": "npm install && cd frontend && npm install && cd ../backend && npm install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
